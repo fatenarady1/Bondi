@@ -44,8 +44,8 @@
 
 
 .navbar .navbar-toggler {
-    color: white;
-    border-color: white;
+    /* color: white; add by boostrap*/
+    /* border-color: white;  add by boostrap*/
     font-size: 25px;
 
 }
@@ -163,7 +163,7 @@
 .our-work .box {
     padding: 5px;
     overflow: hidden;
-    position: relative;
+    /* position: relative;  add by boostrap*/
 
 }
 
@@ -231,10 +231,10 @@
     color: var(--yellow-color);
 }
 
-
+/* 
 .team .box {
-    padding: 0;
-}
+    padding: 0; adding by bootstrap
+} */
 
 
 
@@ -295,12 +295,12 @@
 }
 
 
-.subscribe input[type="text"] {
-
+/* .subscribe input[type="text"] {
+    adding by boostrap
     border: none;
     border-bottom: 1px solid white;
     color: white;
-}
+} */
 
 
 .subscribe input[type="submit"] {
@@ -317,7 +317,7 @@
     font-weight: 500;
 }
 
-.subscribe ::placeholder{
+.subscribe input::placeholder{
     color: white;
     font-weight: 500;
 }
